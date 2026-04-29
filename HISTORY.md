@@ -83,6 +83,7 @@
         * dialog boxes are more bright and their buttons more discernible in bright mode 
         * rearranged IDE settings menu items into "looks" submenu
         * sprite icons no longer blur when the sprite size is reduced or the zoom level increases
+        * sprite icons no longer display graphics effects, but the original costume
         * resizing the browser / window in presentation ("app") mode scales the stage smoothly
         * removed "stage selected, no motion primitives" text from the palette to support sprite-less microworlds
         * turned "language", "looks" and "microphone resolution" menus into settings-submenus
@@ -121,10 +122,24 @@
     * Catalan, thanks, Joan!
     * German
 
+### 2026-04-29
+* Catalan translation update, thank you, Joan!
+* objects: fixed applying graphics effects to sprites
+* fixed initialization of the "Shapes" library, thanks, @DarDoro, for the report!
+* objects: added basic support for writing in "overdraw" mode on a costume-less sprite
+* v12 beta 260429
+
+### 2026-04-28
+* store: refactored loading local custom blocks with custom dropdowns in variadic slots
+* objects: fixed "fill" for the stage
+* v12 beta 260428
+
 ### 2026-04-27
 * gui: made green-flag button change its color to red while any script has an error
 * blocks: guard piano keyboard dropdown menu against non-numerical values 
-* byob: rearranged some slot types in the long form input dialog so default "Any type" is the first one top left 
+* byob: rearranged some slot types in the long form input dialog so default "Any type" is the first one top left
+* store: tweaked loading local custom blocks to refresh custom dropdowns in variadic slots 
+* v12 beta 260427
 
 ### 2026-04-23
 * blocks: trigger "When slot signals edited" for piano keyboard and direction dial dropdown menus
